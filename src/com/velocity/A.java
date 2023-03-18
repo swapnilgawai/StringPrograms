@@ -4,10 +4,8 @@ package com.velocity;
 public class A {
 
 	public static void main(String[] args) {
-		StringBuffer str=new StringBuffer("Java");
-		System.out.println(str.reverse());
+		StringBuffer str = new StringBuffer("Java");
+		StringBuffer sb = str.reverse();
+		System.out.println(sb);
 	}
 }
-
-
- 
